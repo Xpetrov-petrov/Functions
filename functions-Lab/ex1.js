@@ -1,12 +1,6 @@
-function printHeader() {
-    console.log('~~~- {@} -~~~');
-    console.log('~- Certificate -~');
-    console.log('~~~- ~---~ -~~~');
-   }
-
    function formatGrade (grade){
     if(grade < 3){
-        console.log(`Fail (${grade.toFixed(2)})`);
+        console.log(`Fail (2)`);
     }else if(grade >= 3.00 && grade < 3.50){
         console.log(`Poor (${grade.toFixed(2)})`);
     }else if(grade >= 3.50 && grade < 4.50){
@@ -16,9 +10,12 @@ function printHeader() {
     }else{
         console.log(`Excellent (${grade.toFixed(2)})`);
     }
+
    }
-   formatGrade(2.99);
-   formatGrade(3);
-   formatGrade(3.50);
+   //formatGrade(2.99);
+   //formatGrade(3);
    formatGrade(4.50);
-   formatGrade(5.50);
+   //formatGrade(3.50);
+   //formatGrade(5.50);
+
+
