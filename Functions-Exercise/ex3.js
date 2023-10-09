@@ -17,6 +17,6 @@ function charactersInRange(char1, char2) {
     }
     console.log(result.join(" "));
  }
-//charactersInRange('a', 'd');
+charactersInRange('a', 'd');
 //charactersInRange('#', ';');
-charactersInRange('C', '#');
+//charactersInRange('C', '#');
