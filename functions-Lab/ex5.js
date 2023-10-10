@@ -14,6 +14,4 @@ function simpleCalculator(numOne, numTwo, operator){
     }
 console.log(result);
 }
-simpleCalculator(120,
-    19,
-    "add")
+simpleCalculator(120,19,"add")
